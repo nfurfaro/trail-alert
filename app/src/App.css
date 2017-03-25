@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  font-family: 'Lato', 'Arial', sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(skiTrails.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  color: #FFDEA8;
+}
+
+.text {
+  padding-top: 40px;
+}
+
+.RsdBtn {
+  background-color: #FFDEA8 !important;
+  margin-top: 45px;
+}
+
+
+h1 {
+  color: #FFDEA8;
+  font-size: 60px;
+  font-weight: 400;
+  margin: 15px 0;
+}
+
+
+
+.fa {
+  color: #FFDEA8;
+}
+
+
+
