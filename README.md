@@ -11,7 +11,7 @@ I wanted to undertake a slightly more involved app with this project to deepen m
 
 ## About
 
-The front-end for this project is a single-page app written in javascript/React. As this was the first time I had built an app with a need for a back-end, I wanted to have fun with it and learn a few new things. I chose to learn & utilize the Serverless Framework as my starting point, making use of Amazon Web Services and Twilio for my infrastructure.
+The front-end for this project is a single-page app written in javascript/React. I chose to learn & utilize the Serverless Framework as my starting point, making use of Amazon Web Services and Twilio for my infrastructure.
 
 The app consists of 1 DynamoDB table to store user's mobile numbers, and one table to store the recent trail conditions. In total, there are 4 Lambdas at play. I also made use of s3, cloudfront, and API Gateway.
 
