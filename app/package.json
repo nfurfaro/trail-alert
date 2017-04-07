@@ -4,9 +4,19 @@
   "private": true,
   "proxy": " https://tzgvaie938.execute-api.us-east-1.amazonaws.com/dev/",
   "devDependencies": {
-    "react-scripts": "0.9.0"
+    "react-scripts": "0.9.0",
+    "eslint": "^3.14.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-config-standard-react": "^4.2.0",
+    "eslint-plugin-babel": "^4.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-react": "^6.9.0",
+    "eslint-plugin-standard": "^2.0.1"
   },
   "dependencies": {
+    "ignore-styles": "^5.0.1",
     "material-ui": "^0.17.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
