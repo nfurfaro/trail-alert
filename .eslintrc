@@ -1,0 +1,22 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "standard"
+    ],
+    "env": {
+    "node": true
+  },
+    "plugins": [
+        "babel",
+        "react"
+    ],
+    "rules": {
+        "key-spacing": 0,
+        "jsx-quotes": [2, "prefer-single"],
+        "max-len": [2, 120, 2],
+        "object-curly-spacing": [2, "always"],
+        "react/jsx-indent": [2, 4],
+        "indent": [2, 4],
+        "semi": 0
+    }
+}
