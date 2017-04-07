@@ -7,12 +7,12 @@ function unsubscribe (event, context, callback) {
 // ----------------------------------------------------------
 // for local testing only!
 
-    var event = {
-        'body': {
-            'From': '+12222222222',
-            'Body': 'stop'
-        }
-    }
+    // var event = {
+    //     'body': {
+    //         'From': '+12222222222',
+    //         'Body': 'stop'
+    //     }
+    // }
 
     // var event = {
     //     'From': '+12222222222',
@@ -35,8 +35,6 @@ function unsubscribe (event, context, callback) {
             'mobileNumber': mobileNum
         }
     };
-    // console.log(message);
-    // console.log(from);
 
     var docClient = new AWS.DynamoDB.DocumentClient();
     var response = {
@@ -60,4 +58,4 @@ function unsubscribe (event, context, callback) {
       })
     ) : console.log('"stop" message not present.')
 }
-unsubscribe()
+// unsubscribe()
